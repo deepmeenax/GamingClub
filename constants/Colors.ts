@@ -7,20 +7,19 @@ const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
 
 export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+  background: '#0A0A1A', // Deep black-blue
+  glass: 'rgba(20, 30, 40, 0.6)',
+  neonCyan: '#00FFF0',
+  neonPink: '#FF0057',
+  neonBlue: '#007FFF',
+  neonYellow: '#FFF500',
+  white: '#FFFFFF',
+  text: '#E0E0FF',
+  card: 'rgba(30, 40, 60, 0.7)',
+  border: 'rgba(0,255,240,0.3)',
+  shadow: 'rgba(0,255,240,0.4)',
+  glassBorder: 'rgba(255,255,255,0.15)',
+  gradientCyanPink: ['#00FFF0', '#FF0057'],
+  gradientBluePink: ['#007FFF', '#FF0057'],
+  gradientCyanBlue: ['#00FFF0', '#007FFF'],
 };
